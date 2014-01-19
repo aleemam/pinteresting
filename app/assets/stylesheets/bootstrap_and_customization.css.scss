@@ -1,6 +1,17 @@
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700);
 $body-bg:  white;
-$navbar-inverse-bg:  #f39c12;
+$font-family-sans-serif:  'Noto+Sans', Helvetica, Arial, sans-serif;
+$navbar-default-bg:  #f39c12;
+$navbar-height:	40px;
 $brand-primary:  #f39c12;
 $jumbotron-bg:  #ecf0f1;
 
 @import 'bootstrap';
+
+.center { 
+text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
